@@ -11,3 +11,6 @@ mobile version only ( no responsive )//
 light mode only // 
 hover on nav // 
 1ST PART OF THE CHALLENGE
+
+deploy link
+https://graceful-florentine-8997df.netlify.app/
