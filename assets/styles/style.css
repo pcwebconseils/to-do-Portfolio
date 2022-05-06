@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    color: #041821;
+    min-width: 390px;
+    min-height: 1012px;
+}
+
+/* header */
+header {
+    height: 1.1em;
+    margin: 3.4em 0em 6.2em 0em;
+}
+
+header h1 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+span {
+    color: #1BD79E;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+#mediaDark {
+    display: none;
+}
+
+#line {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/* header ends */
+
+/* main container = section = h2 + p + nav + aside */
+section{
+    padding: 0em 1.9em 2em 1.9em;
+}
+section header{
+    height: 12em;
+    padding-top: 1em;
+}
+
+h2 {
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+p {
+    color: #808080;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding-top: 1.3em;
+}
+
+/* nav bar on list */
+nav {
+    height: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1.3em;
+}
+
+nav button {
+    color: black;
+    background: none;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 0.75em;
+    padding: 0.3em;
+}
+
+nav button:hover {
+    background: #DBFAF1;
+    color: #1BD79E;
+}
+
+aside {
+    height: 20.5em;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+/* nav ends */
+
+/* footer */
+footer {
+    font-family: 'Montserrat';
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+h3 {
+    font-size: 0.75em;
+    font-weight: 500;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* toggle dark mode */

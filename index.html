@@ -1,42 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
     <title>portfolio</title>
 </head>
 
 <body>
+    <!-- intro = header
+        H1 = name / nav = social media with divx2 for toggling dark and light mode-->
     <header>
         <h1>Bradley Jackson<span>.</span></h1>
-        <div id="socalMedia">
+        <nav>
             <div class="media" id="mediaDark">
-            <img src="/images/faceboook.svg" alt="facebook">
-            <img src="/images/twiter.svg" alt="twiter">
-            <img src="/images/linkedin.svg" alt="linkedin">
-            <img src="/images/switchmode.png" alt="switch">
-        </div>
-        <div class="media" id="mediaLight">
-            <img src="/images/facebookLight.svg" alt="facebook">
-            <img src="/images/twiterlight.svg" alt="twiterl">
-            <img src="/images/linkedinLight.svg" alt="linkedin">
-            <img src="/images/LightMode.svg" alt="switch">
-        </div>
-        </div>
+                <img src="assets/images/faceboook.svg" alt="facebook">
+                <img src="assets/images/twiter.svg" alt="twiter">
+                <img src="/images/linkedin.svg" alt="linkedin">
+                <img src="assets/images/switchmode.png" alt="switch">
+            </div>
+            <div class="media" id="mediaLight">
+                <img src="assets/images/facebookLight.svg" alt="facebook">
+                <img src="assets/images/twiterlight.svg" alt="twiterl">
+                <img src="assets/images/linkedinLight.svg" alt="linkedin">
+                <img src="assets/images/LightMode.svg" alt="switch">
+            </div>
+        </nav>
         <div id="line"></div>
     </header>
-    <main>
-        <article>
+    <!-- end of header -->
+
+    <!-- section = main container 
+    header = h2 + p= chitchat 
+    nav + buttons = navigation menu between elements thought
+    aside = img -->
+    <section>
+        <header>
             <h2>Hello,<br>Je suis photographe d’art, <span>créative<br>& engagée</span>.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis augue magna.
                 Fusce fringilla purus et sapien euismod ullamcorper. In lorem tellus,
                 sollicitudin in feugiat sed, sodales vel leo.</p>
-        </article>
+        </header>
         <nav>
             <button>NATURE</button>
             <button>FOOD</button>
@@ -44,28 +52,30 @@
             <button>STREET</button>
             <button>ANIMAL</button>
         </nav>
-        <ul>
-            <li><img src="/images/unsplash_bpPTlXWTOvg.png" alt="sandwich"></li>
-            <li><img src="/images/unsplash_nBtmglfY0HU.png" alt="porridge"></li>
-            <li><img src="/images/unsplash_Yn0l7uwBrpw.png" alt="fruits"></li>
-            <li><img src="/images/unsplash_hyIE90CN6b0.png" alt="burger"></li>
-            <li><img src="/images/unsplash_ocnsb17U6FE.png" alt="vegies"></li>
-            <li><img src="/images/unsplash_9Er-MNdzrPA.png" alt="stew"></li>
-            <li><img src="/images/unsplash_-F_5g8EEHYE.png" alt="rice"></li>
-            <li><img src="/images/unsplash_MXovqM130UI.png" alt="sweets"></li>
-            <li><img src="/images/unsplash_Ww8eQWjMJWk.png" alt="soup"></li>
-        </ul>
-    </main>
+        <aside>
+            <img src="assets/images/unsplash_bpPTlXWTOvg.png" alt="sandwich">
+            <img src="assets/images/unsplash_nBtmglfY0HU.png" alt="porridge">
+            <img src="assets/images/unsplash_Yn0l7uwBrpw.png" alt="fruits">
+            <img src="assets/images/unsplash_hyIE90CN6b0.png" alt="burger">
+            <img src="assets/images/unsplash_ocnsb17U6FE.png" alt="vegies">
+            <img src="assets/images/unsplash_9Er-MNdzrPA.png" alt="stew">
+            <img src="assets/images/unsplash_-F_5g8EEHYE.png" alt="rice">
+            <img src="assets/images/unsplash_MXovqM130UI.png" alt="sweets">
+            <img src="assets/images/unsplash_Ww8eQWjMJWk.png" alt="soup">
+        </aside>
+    </section>
+    <!-- footer = h3 + h4 for chitchat -->
     <footer>
         <h3>©2021 BRADLEY JACKSON</h3>
         <h4>MADE FOR TUTO.COM</h4>
+        <!-- validation css -->
         <p>
             <a href="http://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
                     src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
                     alt="CSS Valide !" />
                 </a>
-            </p>
+            </p>            
     </footer>
 </body>
 
