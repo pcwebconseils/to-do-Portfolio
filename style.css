@@ -16,7 +16,6 @@ h1 {
     font-family: 'Yeseva One';
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
     margin: 55px 93px 0px 93px;
     text-align: center;
 }
@@ -26,20 +25,19 @@ span {
 }
 
 #socalMedia #mediaLight{
-    display: flex;
     height: 16px;
     width: 99px;
+    margin: 17px 146px 31px 145px;
     display: flex;
     justify-content: space-between;
-    margin: 17px 146px 31px 145px;
 }
+
 #mediaDark{
     display: none;
 }
 
 #line {
     border-bottom: 1px solid #E5E5E5;
-    margin: 0;
 }
 
 /* header ends */
@@ -56,16 +54,15 @@ h2 {
     font-family: 'Yeseva One', cursive;
     font-weight: 400;
     font-size: 32px;
-    line-height: 37px;
     margin: 32px 0px 22px 0px;
 }
 
 p {
+    color: #808080;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    color: #808080;
 }
 /* nav bar on list */
 nav {
@@ -89,16 +86,16 @@ nav button:hover {
     background: #DBFAF1;
     color: #1BD79E;
 }
-
 ul {
+    list-style: none;
     height: 333px;
+    margin: 0px 28px 0px 29px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    list-style: none;
-    margin: 0px 28px 0px 29px;
 }
+/* nav ends */
 /* footer */
 footer {
     margin: 48px 90px 49px 91px;
@@ -108,7 +105,6 @@ h3 {
     font-family: 'Montserrat';
     font-size: 12px;
     font-weight: 500;
-    line-height: 15px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -117,9 +113,9 @@ h4 {
     font-family: 'Montserrat';
     font-weight: 300;
     font-size: 10px;
-    line-height: 12px;
     text-align: center;
-    letter-spacing: 0.2em;}
+    letter-spacing: 0.2em;
+}
 footer p{
     margin-top: 10px;
     display: flex;
